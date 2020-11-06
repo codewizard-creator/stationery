@@ -25,7 +25,6 @@ $kategorino = $_POST['kategorino'];
 
 <nav class="nav">
         <ul class="nav-main-list">
-            <li class="nav-main-list-item nav-item"><a href="indexA.php">Ana Sayfa</a></li>
             <li class="nav-main-list-item nav-item"><a>Hakkımızda</a></li>
             <li class="nav-main-list-item third nav-item"><a>İletişim</a></li>
             <li class="nav-main-list-item nav-item"><a>Ürünler</a>
