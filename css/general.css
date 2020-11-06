@@ -1,0 +1,17 @@
+  /* GENERAl SETTINGS */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+
+    font-size: 10px;
+}
+
+/* GENERAl SETTINGS INCLUDE FONT */
+@font-face {
+    font-family: Fofer;
+    src: url(../font/Fofer.otf);
+}

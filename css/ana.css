@@ -1,0 +1,75 @@
+.ana {  
+    height: 100vh;
+    color:black;
+    font-family: sans-serif;
+    background-color: black;
+
+}
+
+.contain {
+    display:flex;
+    max-width: 114rem;
+    margin: 0 auto;
+    padding-top: 10rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+.duyurular {
+    align-self: center;
+    flex: 0 0 34%;
+    margin-left: 4%;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.7rem;
+
+}
+
+.dersnotu {
+    clip-path: polygon(50% 0%, 0% 50%, 50% 100%, 100% 50%);
+    background-color: white;
+    width: 19rem;
+    height: 19rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .4s;
+
+}
+
+.dersnotu:hover {
+    transform: scale(1.2);
+
+}
+
+.dersnotu:hover {
+    transform: scale(1.2);
+    color: red;
+
+}
+
+.about {
+    /*flex: 0 0 62%; */
+    border-radius: 5%;
+    flex:1;
+    background: linear-gradient(to right,lightblue, royalblue);
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: .2rem .2rem 1.7rem #888888;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 4rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid black;
+}
+.about p {
+    padding: 0 3rem;
+    text-align: justify;
+    font-size: 2rem;
+}

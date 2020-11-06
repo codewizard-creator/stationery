@@ -1,0 +1,46 @@
+
+
+
+
+/* HEADER */
+.header {
+    position: relative;
+    background-image: url(../images/header-image-2.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.container {
+    position: absolute;
+    top: 25%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+
+/* HEADER h1 and p */
+
+.heading {
+    font-size: 5rem;
+    font-weight: 200;
+    color: black;
+    font-family: Fofer;
+    margin-bottom: 1.6rem;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: type2 3s steps(80, end);
+    animation-fill-mode: forwards;
+}
+
+
+.header-p {
+  color: black; 
+  font-family: "Fofer";
+  font-size: 3.3rem;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: type1 3s steps(80, end);
+  animation-delay: 3s;
+  animation-fill-mode: both;
+}

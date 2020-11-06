@@ -1,0 +1,95 @@
+.programme {
+    background-color: gainsboro;
+    font-size: 3rem;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10rem;
+
+}
+
+
+
+
+
+h3 {
+    position: relative;
+    margin-bottom: 3.5rem;
+    font-size: 2.5rem;
+    padding: 4rem;
+    display: inline-block;
+    z-index: 1;
+}
+
+h3:after {
+    position: absolute;
+    content: " ";
+    display: inline-block;
+    top: 80%;
+    left: -30%;
+    width: 40vw;
+    height: .1rem;
+    background-color: yellowgreen;
+}
+
+
+
+
+
+.programme h4 {
+    font-size: 1.9rem;
+    background: linear-gradient(to right, red, yellowgreen);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+    margin: 3rem 1.2rem;
+}
+
+.forflex {
+    margin-top: 2rem;
+    display:flex;
+    min-height: 22rem;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+
+.submitbut {
+    font-size: 1.6rem;
+    cursor: pointer;
+    border: 1px solid darkred;
+    color: darkred;
+    padding: 1.5rem;
+    border-radius: 10%;
+    margin-top: auto;
+}
+
+.submitbut:hover {
+    border: 1px solid palevioletred;
+    background-color: palevioletred;
+    color: white;
+}
+
+.kalem,.kitap,.dersnot {
+    /* clip-path: polygon(10% 0, 90% 0, 100% 100%, 0% 100%); */
+    padding: 3rem 3rem; 
+    background: linear-gradient(to bottom, yellowgreen, gainsboro);
+}
+
+.check-group input {
+    margin-bottom: 2.5rem;
+}
+
+.check-group label {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    font-family: sans-serif;
+}
+
+.check-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
